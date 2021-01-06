@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chancho va. Reglas</title>
+
+    <meta charset="utf-8"> 
+
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,400i,700,700i|Andada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="./style.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<html>
+
+<body>
+
+<header id="header">
+	<h1>REGLAS DEL JUEGO</h1>
+</header>
+
+<main>
+
+		<nav>
+			<ul>
+				<li><a href="#paso1">Requisitos.</a> </li>
+				<li><a href="#paso2">Preparación del juego.</a> </li>
+				<li><a href="#paso3">Cómo jugar.</a> </li>
+				<li><a href="#paso4">Reglas de convivencia.</a></li>
+				<li><a href="#paso5">Avisos legales.</a></li>
+			</ul>
+		</nav>
+
+<hr>
+
+<article>
+
+<h2>Los requisitos para jugar son:</h2>
+<ul>
+	<li>Computadora con software de dibujo de tipografía.</li>
+	<li>Nivel intermedio de dibujo de tipografía.</li>
+	<li>Experiencia en el uso básico de <em>GitHub:</em> <kbd>pull</kbd> <kbd>commit</kbd> <kbd>push</kbd></li>
+</ul>
+</article>
+
+
+	<!-- •••••••••••••••••••••••••••••••••••••• -->
+<hr>
+
+
+<article>
+
+<h2>Preparación del juego</h2>
+
+<ul>
+	<li>Hay 8–10 jugadores conectados y 8–10 archivos con un sistema tipográfico incompleto.</li>
+	<li>A cada jugador se le asigna un primer archivo, por ejemplo, <kbd>Jugador 1 → 1.UFO</kbd>.</li>
+	<li>El jugador lo abre y a partir de entonces tiene 5 minutos para diseñar y agregar hasta dos nuevos signos siguiendo la coherencia del sistema preexistentes.</li>
+	<li>Pasado el tiempo, todos los jugadores salvan los archivos y los devuelven al repositorio <kbd>commit</kbd> <kbd>push</kbd>. Así finaliza el primer round.</li>
+	<li>Para comenzar el segundo round, cada jugador descarga el archivo siguiente <kbd>pull</kbd> —por ejemplo, <kbd>Jugador 1 →  2.UFO</kbd>— lo abre, suma sus signos, lo salva y vuelve a subirlo <kbd>push</kbd> <kbd>commit</kbd> al repositorio.</li>
+
+</ul>
+
+<p>Los rounds se repiten hasta terminar los alfabetos o que hasta que finaliza el tiempo disponible. La dinámica de intercambio se realiza a través de un repositorio compartido en <em>GitHub</em> con archivos editables <kbd>UFO</kbd>.</p>
+
+</article>
+
+
+<!-- •••••••••••••••••••••••••••••••••••••• -->
+<hr>
+
+
+<article>
+	<h2>Advertencia:</h2>
+		<p>Esto es un juego, no es un espacio de crítica de diseño.</p>
+</article>
+
+<hr>
+
+<!-- •••••••••••••••••••••••••••••••••••••• -->
+
+
+<article>
+	<h2>Cómo jugar</h2>
+	<ul>
+<li>En un repositorio hay cargados tantos archivos <kbd>UFO</kbd> como participantes.</li>
+<li>A cada participante es le asigna un puesto de rotación [primero, segundo, tercero, etc.] que mantendrá durante todo el juego.</li>
+<li>Cada participante realiza pull del repositorio <em>GitHub</em> y toma de su repositorio local el archivo correspondiente a su puesto de rotación [<kbd>jugador 1 → 1.UFO</kbd>, <kbd>jugador 2 → 2.UFO</kbd>, <kbd>jugador 3 → 3.UFO</kbd>, etc.] e informa que está listo para comenzar.</li>
+<li>Cuando el moderador verifica que todos poseen sus archivos correspondientes da inicio al primer round al gritar: <strong>¡Chancho va!</strong>.</li>
+<li>Cada round durará 5 minutos (el moderador avisará 1 minuto antes de finalizar) en el que cada participante deberá:</li>
+	<ul>
+		<LI>- Agregar nuevos glifos al archivo con el que está jugando (mínimo 1/ máximo 2).</LI>
+		<LI> - Salvar el archivo <kbd>UFO</kbd>.</LI>
+		<LI> - Gritar <strong>¡chancho!</strong> para indicar al moderador que está listo para subir su modificación al repositorio:</LI>
+	</ul>
+
+
+	<blockquote>
+		<ul>
+			<li><kbd>COMMIT</kbd>: escribir el siguiente commit: "round x - Nombre del participante".</li>
+			<li><kbd>PUSH</kbd>: hacer push de los cambios.</li>
+			<li><kbd>PULL</kbd>: hacer pull para actualizar su repositorio con los cambios que los otros participantes hayan realizado.</li>
+		</ul>
+	</blockquote>
+
+<li>Si algún participante completa sus glifos antes de los cinco minutos, grita <strong>¡chancho!</strong> y puede hacer push de sus cambios al repositorio.</li>
+<li>En caso que algún participante no termine sus glifos, debe eliminar los dibujos inconclusos o ignorar los cambios en <em>GitHub</em></li>
+<li>Cuando todos los participantes hayan hecho commit push de sus archivos finaliza el primer round.</li>
+<li>El segundo round comienza cuando todos los participantes hacen pull del repositorio y el moderador indica la rotación de archivos</li>
+
+<blockquote>
+	<h4>Ejemplo:</h4>
+
+		<ul>
+			<li>Round 1:</li>
+				<ul>
+					<li>Jugador 1 → Archivo 1.ufo.</li>
+					<li>Jugador 2 → Archivo 2.ufo.</li>
+					<li>Jugador 3 → Archivo 3.ufo.</li>
+				</ul>
+		</ul>		
+
+		<ul>
+			<li>Round 2:</li>
+				<ul>
+					<li>Jugador 1 → Archivo 3.ufo.</li>
+					<li>Jugador 2 → Archivo 1.ufo.</li>
+					<li>Jugador 3 → Archivo 2.ufo.</li>
+				</ul>
+		</ul>
+
+</blockquote>
+
+</ul>
+
+
+<figure>
+  <img src="img/chancho-git.jpg" alt="Chancho va en GitHub">
+  
+  <figcaption>
+  	Luego de asignados los archivos para el nuevo round, todo vuelve a empezar.<br>
+<kbd>pull</kbd> <kbd>diseñar</kbd> <kbd>commit</kbd> <kbd>push</kbd> se repite hasta completar el set de caracteres o hasta que se termine el tiempo.
+	</figcaption>
+
+</figure>
+
+
+
+</article>
+
+<!-- •••••••••••••••••••••••••••••••••••••• -->
+<hr>
+
+<article>
+	<h2>Reglas de convivencia</h2>
+
+<ul>
+	<li>El link con el acceso al juego es individual e intransferible.</li>
+	<li>Cualquier conducta ofensiva provocará que el jugador sea descalificado.</li>
+	<li><strong>Chancho va</strong> es un juego, no un espacio de crítica de diseño.</li>
+	<li>Mantener la coherencia con el dibujo recibido en los nuevos glifos a diseñar.</li>
+	<li>No realizar modificaciones en los glifos diseñados por otros participantes.</li>
+	<li>Respetar el tiempo de cada ronda para dibujar y subir al repositorio.</li>
+	<li>Sumar un mínimo de 1 (uno) y un máximo de 2 (dos) signos al archivo. </li>
+	<li>No dejar signos incompletos, si no terminas el dibujo, debes borrarlo.</li>
+	<li>No realizar modificaciones en el nombre, font info o ubicación original de los archivos: <kbd>Abrir</kbd> <kbd>Modificar</kbd> <kbd>Guardar</kbd> <kbd>Cerrar</kbd>.</li>
+	<li>No es necesario desarrollar el espaciado de los signos.</li>
+	
+<figure>
+  <img src="img/desdequenosauspicia.jpg" alt="Desde que nos auspicia Letterspacer de Huerta estamos más lindes que nunca!">
+</figure>
+
+	<li>Respetar el orden para intervenir según el puesto de rotación de cada participante (<kbd>pull</kbd> <kbd>commit</kbd> <kbd>push</kbd>). Cuando un participante grita <strong>Chancho</strong> debe esperar la autorización del moderador para hacer el <kbd>commit</kbd> <kbd>push</kbd>.</li>
+	<li>Respetar el formato del <kbd>commit</kbd>: «Round X - Nombre jugador»</li>
+</ul>
+
+</article>
+
+<!-- •••••••••••••••••••••••••••••••••••••• -->
+
+<hr>
+
+<article>
+	
+<h2>Avisos legales</h2>
+<p>Todo lo que se produzca en el taller no puede ser comercializado ni por los talleristas ni por los asistentes ni por los organizadores del evento. </p>
+<p>Antes de iniciar el taller, los asistentes deben dejar sus datos y adherir a la licencia y forma de trabajo propuesta.</p>
+<p>Lo producido durante el taller se rige por la licencia SIL Open Font License (OFL)</p>
+
+
+</article>
+
+</main>
+
+
+<footer>
+
+
+</footer>
+
+</body>
+
+</html>
