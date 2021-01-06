@@ -22,13 +22,10 @@ body {
 nav {
     background-color: rgb(255 236 242);
     display: block;
-
-
 }
 
-nav li {
-	padding: 2px 0px 2px 0px;
-
+nav ol {
+	padding: 2px 0px 0px 20px;
 }
 
 main {
@@ -36,6 +33,10 @@ main {
     top: 100px;
     width: 90%;
     max-width: 900px;
+    display: block;
+}
+
+article {
     display: block;
 }
 
@@ -166,3 +167,4 @@ kbd {
     padding: 0.1em;
     display: inline-block;
 }
+
