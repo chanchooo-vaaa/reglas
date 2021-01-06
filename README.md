@@ -1,2 +1,2 @@
-# backstage
-aca va todo lo que no se ve pero es imprescindible
+# reglas
+aqui va el git page con las reglas
