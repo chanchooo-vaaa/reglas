@@ -1,5 +1,5 @@
 :root {
-    font-size: 17px;
+    font-size: 18px;
     text-rendering: optimizeLegibility;
 }
 
@@ -86,6 +86,7 @@ p,
 ul,
 ol {
     color: #5f5f5f;
+    font-size: 20px;
 }
 
 li {
@@ -136,12 +137,6 @@ strong {
 
 }
 figure {
-    margin: 0px;
-    margin: 20px 0px 20px 0px;
-}
-
-
-figure {
   border: none;
   padding: 10px 0 10px 0;
   margin: auto;
@@ -151,6 +146,8 @@ figcaption {
   background-color: white;
   padding: 10px 0 10px 0;
   text-align: left;
+  color: #5f5f5f;
+
 }
 
 img {
