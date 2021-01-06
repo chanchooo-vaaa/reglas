@@ -143,6 +143,8 @@ figure {
 }
 
 figcaption {
+    text-align: right;
+    font-size: 0.7em;
   background-color: white;
   padding: 10px 0 10px 0;
   text-align: left;
